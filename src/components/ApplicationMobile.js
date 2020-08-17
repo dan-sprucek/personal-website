@@ -1,6 +1,6 @@
 import React from "react"
 
-const ApplicationMobile = ({name, url, imgName, HTML, CSS, Sass, Bootstrap, JavaScript, ReactJS, Redux, description, Wide}) => {
+const ApplicationMobile = ({name, url, imgName, HTML, CSS, Sass, Bootstrap, JavaScript, ReactJS, Redux, NodeJS, MongoDB, description, Wide}) => {
     return (
             <div className="mobile-app-container">
                 <h3><a className="mobile-app-heading" href={url} target="_blank" rel="noopener noreferrer" title={name}>{name}</a></h3>
@@ -12,6 +12,8 @@ const ApplicationMobile = ({name, url, imgName, HTML, CSS, Sass, Bootstrap, Java
                     {JavaScript && <span className="badge badge-pill badge-danger">JavaScript</span>}
                     {ReactJS && <span className="badge badge-pill badge-danger">ReactJS</span>}
                     {Redux && <span className="badge badge-pill badge-danger">Redux</span>}
+                    {NodeJS && <span className="badge badge-pill badge-warning">NodeJS</span>}
+                    {MongoDB && <span className="badge badge-pill badge-dark">MongoDB</span>}
                 </div>
                 <div className="d-flex">
                     <div>

@@ -1,5 +1,16 @@
 const ApplicationsData = [
     {
+        name: "Phonebook",
+        nameCZ: "Telefonní seznam",
+        url: "https://blooming-cliffs-85991.herokuapp.com/",
+        description: "Phonebook is my first app that uses backend NodeJS and database MongoDB. You can add, delete and update contacts, which are then saved in MongoDB Atlas database. Part of Fullstack Open Couse by University of Helsinki.",
+        descriptionCZ: "Telefonní seznam je mojí první stránkou, která využívá i backend (NodeJS) a databáze (MongoDB). V této aplikaci lze přidávat, mazat či upravovat kontakty, které jsou následně uloženy v databázi na MongoDB Atlas. Tato aplikace je součástí Fullstack Open kurzu od University of Helsinki.",
+        CSS: true,
+        ReactJS: true,
+        NodeJS: true,
+        MongoDB: true
+    },
+    {
         name: "Pomodoro Clock",
         nameCZ: "Časovač Pomodoro",
         url: "https://dan-sprucek.github.io/FCC-FrontEndCertificate-5-PomodoroClock/",

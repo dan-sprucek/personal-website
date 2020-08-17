@@ -1,6 +1,6 @@
 import React from "react"
 
-const ApplicationDesktop = ({name, url, imgName, HTML, CSS, Sass, Bootstrap, JavaScript, ReactJS, Redux}) => {
+const ApplicationDesktop = ({name, url, imgName, HTML, CSS, Sass, Bootstrap, JavaScript, ReactJS, Redux, NodeJS, MongoDB}) => {
     return (
         <div className="desktop-app-container">
             <a href={url} target="_blank" rel="noopener noreferrer">
@@ -18,6 +18,8 @@ const ApplicationDesktop = ({name, url, imgName, HTML, CSS, Sass, Bootstrap, Jav
                     {JavaScript && <span className="badge badge-pill badge-danger">JavaScript</span>}
                     {ReactJS && <span className="badge badge-pill badge-danger">ReactJS</span>}
                     {Redux && <span className="badge badge-pill badge-danger">Redux</span>}
+                    {NodeJS && <span className="badge badge-pill badge-warning">NodeJS</span>}
+                    {MongoDB && <span className="badge badge-pill badge-dark">MongoDB</span>}
                 </div>
             </div>
         </div>

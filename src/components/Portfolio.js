@@ -6,9 +6,9 @@ import ApplicationDesktopList from "./ApplicationDesktopList"
 
 const Portfolio = ({en}) => {
     
-    const AppsMobile = ApplicationsData.map(Ap => <ApplicationMobile key={Ap.name} name={en ? Ap.name : Ap.nameCZ} url={Ap.url} imgName={Ap.name} description={en ? Ap.description : Ap.descriptionCZ} HTML={Ap.HTML} CSS={Ap.CSS} JavaScript={Ap.JavaScript} Bootstrap={Ap.Bootstrap} Sass={Ap.Sass} ReactJS={Ap.ReactJS} Redux={Ap.Redux} Wide={Ap.Wide} />)
-    const AppsDesktop = ApplicationsData.map(Ap => <ApplicationDesktop key={Ap.name} name={en ? Ap.name : Ap.nameCZ} url={Ap.url} imgName={Ap.name} description={en ? Ap.description : Ap.descriptionCZ} HTML={Ap.HTML} CSS={Ap.CSS} JavaScript={Ap.JavaScript} Bootstrap={Ap.Bootstrap} Sass={Ap.Sass} ReactJS={Ap.ReactJS} Redux={Ap.Redux} Wide={Ap.Wide} />)
-    const AppsDesktopList = ApplicationsData.map(Ap => <ApplicationDesktopList key={Ap.name} name={en ? Ap.name : Ap.nameCZ} url={Ap.url} imgName={Ap.name} description={en ? Ap.description : Ap.descriptionCZ} HTML={Ap.HTML} CSS={Ap.CSS} JavaScript={Ap.JavaScript} Bootstrap={Ap.Bootstrap} Sass={Ap.Sass} ReactJS={Ap.ReactJS} Redux={Ap.Redux} Wide={Ap.Wide} />)
+    const AppsMobile = ApplicationsData.map(Ap => <ApplicationMobile key={Ap.name} name={en ? Ap.name : Ap.nameCZ} url={Ap.url} imgName={Ap.name} description={en ? Ap.description : Ap.descriptionCZ} HTML={Ap.HTML} CSS={Ap.CSS} JavaScript={Ap.JavaScript} Bootstrap={Ap.Bootstrap} Sass={Ap.Sass} ReactJS={Ap.ReactJS} Redux={Ap.Redux} NodeJS={Ap.NodeJS} MongoDB={Ap.MongoDB} Wide={Ap.Wide} />)
+    const AppsDesktop = ApplicationsData.map(Ap => <ApplicationDesktop key={Ap.name} name={en ? Ap.name : Ap.nameCZ} url={Ap.url} imgName={Ap.name} description={en ? Ap.description : Ap.descriptionCZ} HTML={Ap.HTML} CSS={Ap.CSS} JavaScript={Ap.JavaScript} Bootstrap={Ap.Bootstrap} Sass={Ap.Sass} ReactJS={Ap.ReactJS} Redux={Ap.Redux} NodeJS={Ap.NodeJS} MongoDB={Ap.MongoDB} Wide={Ap.Wide} />)
+    const AppsDesktopList = ApplicationsData.map(Ap => <ApplicationDesktopList key={Ap.name} name={en ? Ap.name : Ap.nameCZ} url={Ap.url} imgName={Ap.name} description={en ? Ap.description : Ap.descriptionCZ} HTML={Ap.HTML} CSS={Ap.CSS} JavaScript={Ap.JavaScript} Bootstrap={Ap.Bootstrap} Sass={Ap.Sass} ReactJS={Ap.ReactJS} Redux={Ap.Redux} NodeJS={Ap.NodeJS} MongoDB={Ap.MongoDB} Wide={Ap.Wide} />)
 
     return (
         <section className="container">

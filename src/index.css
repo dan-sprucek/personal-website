@@ -131,6 +131,7 @@ main {
     font-weight: 700;
     text-decoration: none;
     border: 1px solid white;
+    text-align: center;
 }
     .download-cv:hover {
         background-color: white;
@@ -186,6 +187,15 @@ main {
     align-items: center;
     border-top: 2px solid RGB(116, 0, 184);
 }
+.contact-container span {
+    max-width: 100%;
+    text-align: center;
+}
+.contact-container a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
+}
 /* FOOTER */
 
 #footer {
@@ -201,6 +211,25 @@ main {
     margin: 0;
     padding: 10px;
     font-style: italic;
+}
+
+/* SUPERSMALL MOBILE */
+
+@media screen and (max-width: 350px) {
+    main {
+        padding-bottom: 50px;
+    }
+    .about-scroll {
+        font-size: 1rem;
+        text-align: center;
+        text-decoration: underline;
+    }
+    .about-scroll i {
+        display: none;
+    }
+    .navbar-brand {
+        font-size: 1rem;
+    }
 }
 
 /* DESKTOP CSS */

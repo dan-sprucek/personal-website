@@ -1,6 +1,6 @@
 import React from "react"
 
-const ApplicationDesktopList = ({name, url, HTML, CSS, Sass, Bootstrap, JavaScript, ReactJS, Redux, description}) => {
+const ApplicationDesktopList = ({name, url, HTML, CSS, Sass, Bootstrap, JavaScript, ReactJS, Redux, NodeJS, MongoDB, description}) => {
     return (
         <dl>
             <dt>
@@ -15,6 +15,8 @@ const ApplicationDesktopList = ({name, url, HTML, CSS, Sass, Bootstrap, JavaScri
                     {JavaScript && <span className="badge badge-pill badge-danger">JavaScript</span>}
                     {ReactJS && <span className="badge badge-pill badge-danger">ReactJS</span>}
                     {Redux && <span className="badge badge-pill badge-danger">Redux</span>}
+                    {NodeJS && <span className="badge badge-pill badge-warning">NodeJS</span>}
+                    {MongoDB && <span className="badge badge-pill badge-dark">MongoDB</span>}
                 </div>
             </dt>
             <dd className="text-justify">{description}</dd>
